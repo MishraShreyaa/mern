@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h1>Students Admission Form</h1>
+    <form>
+        <label for="name"> Student Name:</label>
+        <input type="text" required> <br>
+
+        <label for=" phone no." > Phone Number:</label>
+        <input type="number" >
+        <br>
+        <label for="email"> Email:</label>
+        <input type="email"> 
+        <br>
+        <label for="DOB" > DOB:</label>
+        <input type="datetime">
+        <br>
+        <label for="Gender"> Gender:</label>
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Female
+        <br>
+        <label for=""> Select Course</label>
+        <select>
+            <Option> MERN</Option>
+            <Option> AI</Option>
+            <Option> ML</Option>
+            <Option> DA</Option>
+            <Option> CLOUD</Option>
+         
+        </select>
+        <br>
+        <label for=" "> Select College</label>
+        <input type="text" list="College">
+        <datalist id="College">
+            <Option>GLA</Option>
+            <Option>SRM</Option>
+            <Option>BBD</Option>
+             </datalist>
+        <br>
+        <label for=""> Studnet address</label>
+        <textarea cols="20" row="20">   </textarea> 
+        <br>
+        <input type="checkbox" id="Terms" > 
+        <label for=" "> I accept the T&C</label>
+        <br>
+        <details>
+            <summary> View t&c</summary>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae asperiores deleniti ut saepe molestias blanditiis inventore dicta in consectetur qui, alias enim ducimus at harum reprehenderit ullam dolores? Non, nam?</p>
+        </details>
+            
+        
+       
+
+
+
+<br>
+<button class="btn"> Submit </button>
+        
+    </form>
+</body>
+</html>
