@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+     initial-scale=1.0">
+    <title>Login Page</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    <style> 
+    *{
+        font-family:  Roboto;
+    }
+        .card{
+            border:2px solid rgb(219, 83, 151);
+            width: 20%;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 3px 3px 5px 0 #0000007b ;
+            background-color: white;
+           
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ccc;
+
+        }
+        .form-title{
+            text-align: center;
+
+        }
+        .text-input{
+            width:100% ;
+            padding: 10px;
+           margin-top:5px;
+           margin-bottom:20px ;
+            border-radius:5px;
+            border:1px solid black;
+            box-sizing: border-box;
+        }
+        .btn{
+            background-color: purple;
+            color: white;
+            width: 100%;
+            border-radius: 5%;
+            border: none;}
+            .link{
+                text-decoration: none;
+                color: violet;
+                dispaly: black;
+            }
+            .forget-link{
+                text-align: right;
+                margin-bottom: 10x;
+
+            }
+            .signup-link{
+                text-align: center;
+                margin-top: 10px;
+            }
+    </style>
+
+</head>
+<body>
+<div class="card">   
+    <h3> Login Form </h3>
+    <form >
+        <label for=""> Email address</label>
+        <input type="email" class=" text-input">
+
+        <label for=""> Password</label>
+        <input type="Pasword" class=" text-input">
+        <a href="#" class="link forget-link"> forgot password</a>
+
+        <button class="btn"> Submit</button>
+          <a href="#" class="link signup-link"> signup-link</a>
+    </form>
+</div>
+    
+</body>
+</html>
